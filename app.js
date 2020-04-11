@@ -1,6 +1,7 @@
 var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
+var path = require('path');
 
 app.set("view engine","ejs");
 app.use(bodyParser.urlencoded({extended:true}));
@@ -22,11 +23,16 @@ app.get("/",function(req,res){
 	res.render("landing");
 });
 
-var aasa = fs.readFileSync(__dirname + '/static/apple-app-site-association');
-app.get('/apple-app-site-association', function(req, res, next) {
-     res.set('Content-Type', 'application/json');
-     res.status(200).send(aasa);
+app.get('/apple-app-site-association', function(req, res) {
+	res.set('Content-Type', 'application/json');
+  res.status(200).sendFile(path.join(__dirname + '/static/apple-app-site-association'));
 });
+
+// var aasa = fs.readFileSync(__dirname + '/static/apple-app-site-association');
+// app.get('/apple-app-site-association', function(req, res, next) {
+//      res.set('Content-Type', 'application/json');
+//      res.status(200).send(aasa);
+// });
 
 app.get("/campgrounds",function(req,res){
 
