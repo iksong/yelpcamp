@@ -1,0 +1,22 @@
+$ heroku login
+
+go to the folder that has app.js 
+
+$ git init 
+$ git add . 
+$ git commit -am "initial commit"
+$ heroku create 
+should get app url 
+git remote added
+
+
+$ git remote -v 
+should git the git url
+
+$ git push heroku master
+
+application error : 
+$ heroku logs
+
+package.json should have "start": "node app.js"
+
