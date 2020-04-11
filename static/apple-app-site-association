@@ -1,0 +1,24 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "5KLJKY3T39.com.citi.mobile.brave.universallink.demo",
+                "paths": [
+                    "NOT /e/*",
+                    "/US/ag/family/*"
+                ]
+            },
+            {
+                "appID": "5KLJKY3T39.com.citi.mobile.brave.fintech",
+                "paths": [
+                    "NOT /e/*",
+                    "/US/ag/family/*"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": []
+    }
+}
