@@ -22,6 +22,12 @@ app.get("/",function(req,res){
 	res.render("landing");
 });
 
+var aasa = fs.readFileSync(__dirname + '/static/apple-app-site-association');
+app.get('/apple-app-site-association', function(req, res, next) {
+     res.set('Content-Type', 'application/json');
+     res.status(200).send(aasa);
+});
+
 app.get("/campgrounds",function(req,res){
 
 	res.render("campgrounds",{campgrounds:campgrounds});
@@ -39,13 +45,6 @@ app.post("/campgrounds",function(req,res){
 app.get("/campgrounds/new",function(req,res){
 	res.render("new");
 });
-
-var aasa = fs.readFileSync(__dirname + '/static/apple-app-site-association');
-app.get('/apple-app-site-association', function(req, res, next) {
-     res.set('Content-Type', 'application/json');
-     res.status(200).send(aasa);
-});
-
 
 app.listen(process.env.PORT || 3000,function(){
 	console.log("server is listening");
