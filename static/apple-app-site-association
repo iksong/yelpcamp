@@ -12,8 +12,7 @@
             {
                 "appID": "5KLJKY3T39.com.citi.mobile.brave.fintech",
                 "paths": [
-                    "NOT /e/*",
-                    "/US/ag/family/*"
+                    "NOT /e/*"
                 ]
             }
         ]
