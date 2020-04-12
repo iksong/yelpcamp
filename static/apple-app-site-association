@@ -19,5 +19,8 @@
         ]
       }
     ]
-  }
+  },
+  "webcredentials": {
+      "apps": ["5KLJKY3T39.com.citi.mobile.brave.universallink.demo"]
+   }
 }
