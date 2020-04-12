@@ -1,17 +1,28 @@
 {
   "applinks": {
-      "details": [
-           {
-             "appIDs": [ "5KLJKY3T39.com.citi.mobile.brave.fintech", "5KLJKY3T39.com.citi.mobile.brave.universallink.demo" ],
-             "components": [
-               {
-                  "/": "/*"
-               }
-             ]
-           }
-       ]
-   },
-   "webcredentials": {
-      "apps": [ "5KLJKY3T39.com.citi.mobile.brave.universallink.demo" ]
-   }
+    "apps": [],
+    "details": [
+      {
+        "appID": "5KLJKY3T39.com.citi.mobile.brave.universallink.demo",
+        "paths": [
+          "NOT /e/*",
+          "*",
+          "/"
+        ]
+      },
+      {
+        "appID": "5KLJKY3T39.com.citi.mobile.brave.fintech",
+        "paths": [
+          "NOT /e/*",
+          "*",
+          "/"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "5KLJKY3T39.com.citi.mobile.brave.fintech"
+    ]
+  }
 }
