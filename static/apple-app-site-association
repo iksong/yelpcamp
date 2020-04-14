@@ -14,8 +14,7 @@
         "appID": "5KLJKY3T39.com.citi.mobile.brave.fintech",
         "paths": [
           "NOT /e/*",
-          "*",
-          "/"
+          "/c*"
         ]
       }
     ]
