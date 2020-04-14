@@ -4,7 +4,7 @@ go to the folder that has app.js
 
 $ git init
 $ git add .
-$ git commit -am "initial commit"
+$ git commit -am "initial commit"  - git@github.com:iksong/yelpcamp.git
 $ heroku create
 should get app url - https://damp-inlet-74024.herokuapp.com/
 git remote added
