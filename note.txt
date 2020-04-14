@@ -6,7 +6,7 @@ $ git init
 $ git add .
 $ git commit -am "initial commit"
 $ heroku create
-should get app url
+should get app url - https://damp-inlet-74024.herokuapp.com/
 git remote added
 
 
