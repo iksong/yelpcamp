@@ -26,6 +26,10 @@
     ]
   },
   "appclips": {
-        "apps": ["5KLJKY3T39.com.citi.mobile.brave.fintech.iktest.Clip"]
+        "apps": [
+        "5KLJKY3T39.com.citi.mobile.brave.fintech.iktest.Clip",
+        "P2874HG8D6.com.iksong.apple-samplecode.fruta.Clip",
+        "P2874HG8D6.com.iksong.apple-samplecode.fruta"
+        ]
     }
 }
