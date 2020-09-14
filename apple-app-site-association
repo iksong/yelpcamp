@@ -1,18 +1,21 @@
 {
   "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "P2874HG8D6.com.iksong.Gente15",
-        "paths": [
-          "NOT /e/*",
-          "*",
-          "/"
-        ]
-      }
-    ]
-  },
-  "appclips": {
-    "apps": ["P2874HG8D6.com.iksong.Gente15.Clip"]
-  }
+      "details": [
+           {
+             "appIDs": [ "P2874HG8D6.com.iksong.Gente15"],
+             "components": [
+               {
+                  "/": "*",
+                  "comment": "Matches any URL whose path starts with /*"
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "P2874HG8D6.com.iksong.Gente15" ]
+   },
+    "appclips": {
+        "apps": ["P2874HG8D6.com.iksong.Gente15.Clip"]
+    }
 }
