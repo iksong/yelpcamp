@@ -1,15 +1,22 @@
 {
   "applinks": {
-      "details": [
-           {
-             "appIDs": [ "P2874HG8D6.com.iksong.Gente15"],
-             "components": [
-               {
-                  "/": "*",
-                  "comment": "Matches any URL whose path starts with /*"
-               }
-             ]
-           }
-       ]
-   }
+    "apps": [],
+    "details": [
+      {
+        "appID": "P2874HG8D6.com.iksong.Gente15",
+        "paths": [
+          "NOT /e/*",
+          "*",
+          "/"
+        ]
+      },
+      {
+        "appID": "5KLJKY3T39.com.citi.mobile.brave.fintech",
+        "paths": [
+          "NOT /e/*",
+          "/c*"
+        ]
+      }
+    ]
+  }
 }
