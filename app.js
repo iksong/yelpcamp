@@ -25,7 +25,7 @@ app.get("/",function(req,res){
 
 app.get('/apple-app-site-association', function(req, res) {
 	res.set('Content-Type', 'application/json');
-  res.status(200).sendFile(path.join(__dirname + '/static/apple-app-site-association'));
+  res.status(200).sendFile(path.join(__dirname + '/apple-app-site-association'));
 });
 
 // var aasa = fs.readFileSync(__dirname + '/static/apple-app-site-association');
