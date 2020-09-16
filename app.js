@@ -23,6 +23,10 @@ app.get("/",function(req,res){
 	res.render("landing");
 });
 
+app.get("/atm",function(req,res){
+	res.render("landing");
+});
+
 app.get('/apple-app-site-association', function(req, res) {
 	res.set('Content-Type', 'application/json');
   res.status(200).sendFile(path.join(__dirname + '/apple-app-site-association'));
